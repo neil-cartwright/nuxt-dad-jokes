@@ -1,13 +1,6 @@
 <template>
   <div>
-    <Hero />
-    <div class="card mt-2">
-      <div class="card-body">
-        {{ joke }}
-      </div>
-    </div>
-    <hr />
-    <small>Joke ID: {{ $route.params.id }}</small>
+    <Hero :joke="joke" />
   </div>
 </template>
 <script>
@@ -15,7 +8,7 @@ import axios from "axios";
 import Hero from "~/components/Hero";
 export default {
   components: {
-    Jumbotron
+    Hero
   },
   data() {
     return {

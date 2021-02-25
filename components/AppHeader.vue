@@ -1,12 +1,10 @@
 <template>
   <nav class="navbar navbar-light bg-primary navbar-expand-lg py-2">
-    <div class="container">
-      <nuxt-link to="/" class="navbar-brand">
-        <h1>Dad Jokes</h1>
-      </nuxt-link>
-    </div>
+    <nuxt-link to="/" class="navbar-brand">
+      <h1>Dad Jokes</h1>
+    </nuxt-link>
     <ul class="navbar-nav my-2, my-lg-0, me-sm-0, my-sm-0">
-      <nuxt-link to="/jokes" class="nav-link">Jokes</nuxt-link>
+      <nuxt-link to="/jokes" class="nav-link">Get some jokes</nuxt-link>
     </ul>
   </nav>
 </template>
