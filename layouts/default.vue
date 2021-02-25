@@ -19,9 +19,6 @@ html,
   padding-left: 0;
   padding-right: 0;
 }
-* {
-  outline: 1px solid red;
-}
 h1,
 a.nav-link {
   font-family: "Single Day", display;
