@@ -37,6 +37,9 @@ export default {
   h1.joke {
     font-size: 1.5rem;
   }
+  h1 {
+    font-size: 4rem;
+  }
   a:hover {
     text-decoration: none;
   }

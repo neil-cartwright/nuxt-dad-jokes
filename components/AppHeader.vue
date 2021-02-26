@@ -4,7 +4,7 @@
       <h1>Dad Jokes</h1>
     </nuxt-link>
     <ul class="navbar-nav my-2, my-lg-0, me-sm-0, my-sm-0">
-      <nuxt-link to="/jokes" class="nav-link">Get some jokes</nuxt-link>
+      <nuxt-link to="/jokes" class="nav-link">Search jokes</nuxt-link>
     </ul>
   </nav>
 </template>

@@ -13,7 +13,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 html,
 .container-sm {
   padding-left: 0;
